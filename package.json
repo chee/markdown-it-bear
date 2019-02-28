@@ -1,26 +1,28 @@
 {
-  "name": "markdown-it-mark",
-  "version": "2.0.0",
-  "description": "<mark> tag for markdown-it markdown parser.",
-  "keywords": [
-    "markdown-it-plugin",
-    "markdown-it",
-    "markdown",
-    "mark"
-  ],
-  "repository": "markdown-it/markdown-it-mark",
-  "license": "MIT",
-  "scripts": {
-    "test": "make test"
-  },
-  "devDependencies": {
-    "browserify": "*",
-    "coveralls": "^2.11.2",
-    "eslint": "^3.5.0",
-    "istanbul": "*",
-    "markdown-it": "markdown-it/markdown-it",
-    "markdown-it-testgen": "~0.1.0",
-    "mocha": "*",
-    "uglify-js": "*"
-  }
+	"name": "markdown-it-bear-mark",
+	"version": "2.0.0",
+	"description": "polar bear <mark> tag for markdown-it markdown parser.",
+	"keywords": [
+		"markdown-it-plugin",
+		"markdown-it",
+		"markdown",
+		"mark",
+		"bear",
+		"polar-bear"
+	],
+	"repository": "chee/markdown-it-bear-mark",
+	"license": "MIT",
+	"scripts": {
+		"test": "mocha -R spec test"
+	},
+	"devDependencies": {
+		"browserify": "*",
+		"coveralls": "^2.11.2",
+		"eslint": "^3.5.0",
+		"istanbul": "*",
+		"markdown-it": "markdown-it/markdown-it",
+		"markdown-it-testgen": "~0.1.0",
+		"mocha": "*",
+		"uglify-js": "*"
+	}
 }
