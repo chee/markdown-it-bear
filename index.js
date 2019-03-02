@@ -1,8 +1,7 @@
 let todo = require("./todo")
-let list = require("./list")
 
 // wrapping rule is based on markdown-it-mark
-let createWrappingRule = ({tag, name = tag, character, repeats = 1, before = "emphasis", classname = null}) => md => {
+let createWrappingRule = ({tag, name = tag, character, before = "emphasis", repeats = 1, classname = null}) => md => {
 	let targetCharacterCode = character.charCodeAt(0)
 
 	function tokenize (state, silent) {
@@ -26,7 +25,7 @@ let createWrappingRule = ({tag, name = tag, character, repeats = 1, before = "em
 
 		let token
 
-		if (scanLength % repeats) {
+		if (repeats > 1 && scanLength % repeats) {
 			token = state.push("text", "", 0)
 			token.content = startCharacter
 			scanLength--
@@ -187,10 +186,12 @@ module.exports = md => {
 		"fence",
 		"image",
 		"backticks",
-		"list"
+		"list",
+		"escape"
 	])
 
 	md.set({
+		linkify: true,
 		breaks: true,
 		typographer: true
 	})
