@@ -1,4 +1,16 @@
 .
+go to <small>small house</small> for the <small>answer</small>
+.
+<p>go to &lt;small&gt;small house&lt;/small&gt; for the &lt;small&gt;answer&lt;/small&gt;</p>
+.
+
+.
+go to https:/\/github.com\/chee\/markdown\-it-bear for the answer
+.
+<p>go to <a href="https://github.com/chee/markdown-it-bear">https://github.com/chee/markdown-it-bear</a> for the answer</p>
+.
+
+.
 - happened
 * what
 .
@@ -108,14 +120,14 @@ i -struck out-
 <p>i <s>struck out</s></p>
 .
 
-.
-#recipes #recipes/abe #recipes/i like cheese#
+	.
+	#recipes #recipes/abe #recipes/i like cheese#
 
-don't forget about #recipes #recipes/abe #recipes/i like cheese# and stuff
-.
-<p><span class='hashtag'>#recipes</span> <span class='hashtag'>#recipes/abe</span> <span class='hashtag'>#recipes/i like cheese#</span></p>
-<p>don't forget about <span class='hashtag'>#recipes</span> <span class='hashtag'>#recipes/abe</span> <span class='hashtag'>#recipes/i like cheese#</span> and stuff</p>
-.
+	don't forget about #recipes #recipes/abe #recipes/i like cheese# and stuff
+	.
+	<p><span class='hashtag'>#recipes</span> <span class='hashtag'>#recipes/abe</span> <span class='hashtag'>#recipes/i like cheese#</span></p>
+	<p>don't forget about <span class='hashtag'>#recipes</span> <span class='hashtag'>#recipes/abe</span> <span class='hashtag'>#recipes/i like cheese#</span> and stuff</p>
+	.
 
 .
 ::Mark::
