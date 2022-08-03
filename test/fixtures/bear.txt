@@ -85,9 +85,9 @@ go to https:/\/github.com\/chee\/markdown\-it-bear for the answer
 .
 
 .
-hello [chee](https://chee.snoot.club/content)
+hello [chee](https://chee.party/content)
 .
-<p>hello <a href="https://chee.snoot.club/content">chee</a></p>
+<p>hello <a href="https://chee.party/content">chee</a></p>
 .
 
 .
