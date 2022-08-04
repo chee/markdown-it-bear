@@ -1,6 +1,6 @@
 {
 	"name": "markdown-it-bear",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "bear.app's polar bear plugin for markdown-it markdown parser.",
 	"keywords": [
 		"markdown-it-plugin",
